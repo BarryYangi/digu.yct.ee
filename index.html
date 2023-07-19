@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="referrer" content="no-referrer">
+    <link rel="icon" href="https://easyimage.smitten.top/i/2023/02/20/kcl9tz-0.png" type="image/*" />
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/APlayer.min.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/highlight.github.min.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/custom.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://npm.elemecdn.com/lxgw-wenkai-screen-webfont/style.css" media="print" onload="this.media='all'">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
+    <title>嘀咕日记</title>
+
+</head>
+
+<body>
+    <header>
+        <div class="menu">
+            <div class="title">今天你嘀咕了吗？</div>
+
+            <!-- <div class="pages">
+                    <a href="https://github.com/BarryYangi" target="_blank" rel="noopener noreferrer" class="">GitHub</a>
+                    <a href="https://blog.yct.ee/" target="_blank" rel="noopener noreferrer" class="">I'm Feeling Lucky</a>
+            </div> -->
+
+        </div>
+        
+        <div class='theme-toggle'>🌓</div>
+
+    </header>
+
+    <section id="main" class="container">
+        <h1><span id="jinrishici-sentence">正在加载今日诗词....</span></h1>
+        <script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script>
+        <blockquote>
+            <p>Je <del>memos</del>, donc je suis - <em>René Descartes fans</em></p>
+        </blockquote>
+
+        <div class="total">一共嘀咕了 <span id="total">0</span> 条Memos 🎉</div>
+
+        <div id="memos" class="memos">
+            <!-- Memos Container -->
+        </div>
+
+    </section>
+
+    <footer class="markdown-body footer">
+        <p>Copyright @
+            <script>
+                document.write(new Date().getFullYear())
+            </script><a href="https://blog.yct.ee/" target="_blank" rel="noopener noreferrer" class="hidden">Barry</a> All Rights Reserved.
+        </p>
+        
+    </footer>
+
+
+    <script type="text/javascript">
+        var memos = {
+            host: 'https://memos.smitten.top/',
+            limit: '10',  //默认每次显示 10条
+            creatorId: '1',  
+            domId: '#memos',  //默认为 #memos
+            username: 'Barry',  //发布者 ID 自定义
+            name: '杨.',  //发布者全称自定义
+        }
+
+    </script>
+    <script type="text/javascript" src="assets/js/lazyload.min.js?v=17.8.3"></script>
+    <script type="text/javascript" src="assets/js/marked.min.js?v=4.2.2"></script>
+    <script type="text/javascript" src="assets/js/view-image.min.js"></script>
+    <!-- <script type="text/javascript" src="assets/js/pangu.min.js?v=4.0.7"></script> -->
+    <script type="text/javascript" src="assets/js/moment.min.js?v=2.29.4"></script>
+    <script type="text/javascript" src="assets/js/moment.twitter.js"></script>
+    <script type="text/javascript" src="assets/js/APlayer.min.js"></script>
+    <script type="text/javascript" src="assets/js/Meting.min.js"></script>
+    <script type="text/javascript" src="assets/js/highlight.min.js"></script>
+    <script type="text/javascript" src="assets/js/main.js"></script>
+    <script type="text/javascript" src="assets/js/custom.js"></script>
+    <script>hljs.highlightAll();</script>
+</body>
+
+</html>
